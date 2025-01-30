@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddddddbb;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .highlight {
+    color: #007bff; /* Accent color */
+  }
+  
+  .description {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .operations {
+    background-color: #e8e8e8;
+    padding: 30px 20px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  .operations-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+    background-color: #ffc107; /* Yellow highlight */
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .operations-description {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .operations {
+      padding: 20px;
+    }
+  
+    .operations-title {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .subtitle {
+      font-size: 1rem;
+    }
+  
+    .operations {
+      padding: 15px;
+    }
+  
+    .operations-title {
+      font-size: 1.2rem;
+    }
+  }
+  

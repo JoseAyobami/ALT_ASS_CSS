@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP Pusher Checkout</title>
+    <link href="./fifth.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">WP Pusher</div>
+        <nav>
+            <a href="#download">Download</a>
+            <a href="#learn">Learn More</a>
+            <a href="#price">Price</a>
+            <a href="#help">Help</a>
+            <button class="account-btn">Account</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="checkout-form">
+            <h2>Checkout</h2>
+            <form action="#action" method="post">
+                <div class="input-group">
+                    <p class="basic-information"><span class="circle">1</span> Your Basic Information</p>
+
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="basic-information" name="first-name" placeholder="John" required>
+
+                    <label for="last-name">Last Name</label>
+                    <input type="text " id="basic-information" name="last-name" placeholder="Doe" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="basic-information" name="email" placeholder="johndoe@example.com" required>
+                </div>
+
+                <div class="input-group">
+                    <p class="payment-information"><span class="circle">2</span> Your Payment Information</p>
+
+                    <label for="credit-card">Credit Card</label>
+                    <input type="text" id="credit-card" placeholder="Card Number                          MM / YY CVC">
+                </div>
+
+                <button type="submit" class="btn">Buy WP Pusher</button>
+
+                
+                <p class="help">Need any help? Don't hesitate to <a href="#">contact support</a> </p>
+
+                
+                <button type="submit" class="stripe-badge"><span>Powered by</span> Stripe</button>
+               
+                
+            </form>
+        </div>
+
+        <div class="pricing">
+            <h3>Freelancer</h3>
+            <p class="price">$99 /year</p>
+            <p>Automatically renews after 1 year</p>
+
+            <section class="list">
+                <ul>
+                    <li>Use on 5 client sites</li>
+                    <li>Private repositories</li>
+                    <li>Email support</li>
+                </ul>
+            </section>
+
+            <section class="paragraph">
+                <p>Need 20 client sites?</p>
+                <p><a href="#">Switch to the Agency plan</a></p>
+            </section>
+
+            <blockquote>
+                <p>“FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!”</p>
+                <p> <img src="logo_png" alt="Kirk Picture">- Kirk Beard</p>
+
+            </blockquote>
+        </div>
+
+    </div>
+    <p>
+        <footer class="foot">&copy; 2018 WP Pusher IVS. <a>Terms of Service</a></footer>
+    </p>
+    
+</body>
+</html>

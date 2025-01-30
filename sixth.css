@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    color: #222;
+    text-align: center;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #f9f9f9, #e9ecef);
+  }
+  
+  .url-box {
+    margin-top: 20px;
+  }
+  
+  .url-box input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .url-box button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Features Section */
+  .features {
+    background: #fff;
+    padding: 40px 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  /* Pricing Section */
+  .pricing {
+    background: #f8f9fa;
+    padding: 40px 20px;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .plan {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .premium {
+    border: 2px solid #007bff;
+  }
+  
+  /* FAQ Section */
+  .faq {
+    background: #fff;
+    padding: 40px 20px;
+  }
+  
+  details {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
