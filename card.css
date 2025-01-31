@@ -20,8 +20,8 @@ body {
 }
 
 .card h1 {
-  position: absolute;
-  top: 200px;
+  position: fixed;
+  top: 400px;
   left: 50%;
   transform: translateX(-80%);
   background-color: #ff0080;
