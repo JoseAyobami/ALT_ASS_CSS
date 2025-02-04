@@ -19,12 +19,12 @@ body {
 }
 
 .card h1 {
-  background-color: #ff00a5;
+  background-color: #ff007f;
   text-align: center;
   height: 50px;
   width: 250px;
-  margin-top: 20px;
-  margin-left: 75px;
+  margin-top: 10px;
+  margin-left: 65px;
   position: absolute;
   z-index: 1;
   border-radius: 3px;
