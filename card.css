@@ -21,16 +21,18 @@ body {
 
 .card h1 {
   position: absolute;
-  top: 400px;
+  top: -20px; /* "Peek-out" effect */
   left: 50%;
-  transform: translateX(-80%);
+  transform: translateX(-50%);
   z-index: 1;
-  background-color: #ff0080;
-  color: #222;
-  padding: 10px 20px;
-  font-size: 20px 10px 20px;
+  background-color: #ff007f; /* Bright pink background */
+  color: #fff;
+  padding: 0.5rem 1rem;
   font-weight: bold;
-  border-radius: 8px 8px 8px 8px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  
 }
 
 .card p {
