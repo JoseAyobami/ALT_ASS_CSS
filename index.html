@@ -7,10 +7,8 @@
     <title>My Webpage Assignment</title>
     <!--<link href="./page.css" rel="stylesheet">-->
     <style>
-        
-
         body {
-            
+
             background-image: linear-gradient(to right, red, blue);
             text-align: center;
             justify-content: center;
@@ -20,11 +18,12 @@
         h1 {
             font-size: 100px;
         }
-        p{
+
+        p {
             font-size: 50px;
         }
 
-        button{
+        button {
             padding: 20px;
         }
 
@@ -33,10 +32,33 @@
 
         }
 
-        .group{
+        .group {
             margin-bottom: 60px;
         }
-    
+
+        /* For mobile devices (up to 767px) */
+        @media (max-width: 767px) {
+            body {
+                font-size: 16px;
+                background-image: linear-gradient(to right, lightcoral, red);
+            }
+        }
+
+        /* For tablets (768px to 1023px) */
+        @media (min-width: 768px) and (max-width: 1023px) {
+            body {
+                font-size: 18px;
+                background-image: linear-gradient(to right, lightblue, blue);
+            }
+        }
+
+        /* For desktops (1024px and above) */
+        @media (min-width: 1024px) {
+            body {
+                font-size: 20px;
+                background-image: linear-gradient(to right, darkgray, blue);
+            }
+        }
     </style>
 </head>
 
@@ -46,18 +68,18 @@
 
     <p>below are the links to my assignments</p>
 
-   
-        <section class="group">
-            <button type="submit" class="btn"><a href="./card.html">Assignment 1</a></button>
-            <button type="submit" class="btn"><a href="./clock.html">Assignment 2</a></button>
-            <button type="submit" class="btn"><a href="./huckle.html">Assignment 3 </a></button>
-            <button type="submit" class="btn"><a href="./signpage.html">Assignment 4</a></button>
-            <button type="submit" class="btn"><a href="./wppusher.html">Assignment 5</a></button>
-        </section>
+
+    <section class="group">
+        <button type="submit" class="btn"><a href="./card.html">Assignment 1</a></button>
+        <button type="submit" class="btn"><a href="./clock.html">Assignment 2</a></button>
+        <button type="submit" class="btn"><a href="./huckle.html">Assignment 3 </a></button>
+        <button type="submit" class="btn"><a href="./signpage.html">Assignment 4</a></button>
+        <button type="submit" class="btn"><a href="./wppusher.html">Assignment 5</a></button>
+    </section>
 
 
 
-   
+
 
 
 </body>
